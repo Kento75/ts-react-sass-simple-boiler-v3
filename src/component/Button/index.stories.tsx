@@ -11,6 +11,6 @@ components.add('Button', () => (
   <Button
     text={text('テキスト', 'ボタンですよ')}
     flag={boolean('テキスト表示', true)}
-    action={action('ボタンを押した')}
+    action={action('ボタンを押した!')}
   />
 ));
